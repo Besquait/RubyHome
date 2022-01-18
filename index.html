@@ -1,0 +1,772 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ruby home</title>
+    <!-- <link rel="stylesheet" href="css/reset.css" /> -->
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Poppins:wght@400;500;600;700&family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header__wrapper">
+          <div class="header__left">
+            <a href="#" class="logo__link"
+              ><img src="./img/Logo.svg" alt=""
+            /></a>
+          </div>
+          <div class="header__right">
+            <nav class="header__menu">
+              <a href="#" class="header__menu-item header__menu-item--active"
+                >Home</a
+              >
+              <a href="#" class="header__menu-item">Properties </a>
+              <a href="#" class="header__menu-item">About us</a>
+              <a href="#" class="header__menu-item">Blog</a>
+            </nav>
+            <div class="header__burger">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+            <a href="#" class="header__btn">Contact us</a>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section class="intro">
+      <div class="container">
+        <div class="intro__wrapper">
+          <div class="intro__left">
+            <h1 class="intro__title">
+              Find the perfect place to stay with your family
+            </h1>
+            <p class="intro__subtitle">
+              Buying a home is a life-changing experience, so shouldn’t your
+              real estate agent be a life changer.
+            </p>
+            <div class="intro__bottom tabs">
+              <div class="tabs-nav">
+                <a class="tabs__link tabs__link-active" href="#content-1"
+                  >Buy</a
+                >
+                <a class="tabs__link" href="#content-2">Rent</a>
+                <a class="tabs__link" href="#content-3">Sell</a>
+              </div>
+              <div class="tabs__content">
+                <div class="tabs__pane tabs__pane-show" id="content-1">
+                  <form action="#">
+                    <div class="form__underlay">
+                      <div class="form__wrapper">
+                        <div class="form__location form__repeat">
+                          <label
+                            class="location form__text-repeat"
+                            for="Location"
+                            >Location
+                            <span><img src="img/arrow.svg" alt="" /></span
+                          ></label>
+                          <div class="location__form-select">
+                            <select id="Location" class="location">
+                              <option value="">Dhaka</option>
+                              <option value="">Riaz</option>
+                              <option value="">Akeno</option>
+                              <option value="">Nakato</option>
+                              <option value="">Aphel</option>
+                            </select>
+                          </div>
+                          <span class="form__stick"></span>
+                        </div>
+                        <div class="form__property form__repeat">
+                          <label
+                            class="propert form__text-repeat2"
+                            for="Property"
+                            >Property type<span
+                              ><img src="img/arrow.svg" alt="" /></span
+                          ></label>
+                          <select id="Property" class="property">
+                            <option value="" font-family: required>Duplex</option>
+                            <option value="">Riaz</option>
+                            <option value="">Akeno</option>
+                            <option value="">Nakato</option>
+                            <option value="">Aphel</option>
+                          </select>
+                          <span class="form__stick2"></span>
+                        </div>
+                        <div class="form__price form__repeat">
+                          <label class="price form__text-repeat3" for="Price"
+                            >Price<span><img src="img/arrow.svg" alt="" /></span
+                          ></label>
+                          <select id="Price" class="price">
+                            <option value="">$4000-$8000</option>
+                            <option value="">Riaz</option>
+                            <option value="">Akeno</option>
+                            <option value="">Nakato</option>
+                            <option value="">Aphel</option>
+                          </select>
+                        </div>
+                        <button class="tabs__button">Search</button>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+                <div class="tabs__pane" id="content-2">Содержимое 2...</div>
+                <div class="tabs__pane" id="content-3">
+                  <form action="#">
+                    <div class="form__underlay">
+                      <div class="form__wrapper">
+                        <div class="form__location form__repeat">
+                          <label
+                            class="location form__text-repeat"
+                            for="Location"
+                            >Location</label
+                          >
+                          <div class="location__form-select">
+                            <select id="Location">
+                              <option value="">Dhaka</option>
+                              <option value="">Riaz</option>
+                              <option value="">Akeno</option>
+                              <option value="">Nakato</option>
+                              <option value="">Aphel</option>
+                            </select>
+                          </div>
+                          <span class="form__stick"></span>
+                        </div>
+                        <div class="form__property form__repeat">
+                          <label
+                            class="propert form__text-repeat2"
+                            for="Property"
+                            >Property type</label
+                          >
+                          <select id="Property">
+                            <option value="">Duplex</option>
+                            <option value="">Riaz</option>
+                            <option value="">Akeno</option>
+                            <option value="">Nakato</option>
+                            <option value="">Aphel</option>
+                          </select>
+                          <span class="form__stick2"></span>
+                        </div>
+                        <div class="form__price form__repeat">
+                          <label class="price form__text-repeat3" for="Price"
+                            >Price</label
+                          >
+                          <select id="Price">
+                            <option value="">$4000-$8000</option>
+                            <option value="">Riaz</option>
+                            <option value="">Akeno</option>
+                            <option value="">Nakato</option>
+                            <option value="">Aphel</option>
+                          </select>
+                        </div>
+                        <button class="tabs__button">Search</button>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="intro__right">
+            <img src="img/windows.png" alt="windows" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Our partners start -->
+    <section class="partners">
+      <div class="container">
+        <div class="title__wrapper">
+          <h2 class="title__repeat partners__title">Our Partners</h2>
+        </div>
+        <div class="partners__wrapper">
+          <div class="partners__item">
+            <img src="img/biotech.png" alt="" class="partners__img" />
+          </div>
+          <div class="partners__item">
+            <img src="img/express.png" alt="" class="partners__img" />
+          </div>
+          <div class="partners__item">
+            <img src="img/smilehome.png" alt="" class="partners__img" />
+          </div>
+          <div class="partners__item">
+            <img src="img/connect.png" alt="" class="partners__img" />
+          </div>
+          <div class="partners__item">
+            <img src="img/homebuild.png" alt="" class="partners__img" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Our partners end -->
+    <!-- Properties start -->
+    <section class="properties">
+      <div class="container">
+        <div class="properties__top">
+          <h2 class="title__repeat properties__title">Popular Properties</h2>
+          <a href="#" class="properties__view-all">view all</a>
+        </div>
+        <div class="properties-card__wrapper">
+          <div class="properties-card__item">
+            <div class="properties-card__img">
+              <img src="img/house-1.png" alt="house" />
+            </div>
+            <div class="properties-card__inner-padding">
+              <div class="properties-card__element">
+                <h3 class="properties-card__title">Capital hill residence</h3>
+                <svg
+                  class="properties-card__heart"
+                  width="16"
+                  height="14"
+                  viewBox="0 0 16 14"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M8 14C7.88969 14 7.77981 13.9617 7.69147 13.8847C7.00941 13.2909 6.36075 12.7404 5.75056 12.2227C2.30678 9.30098 0 7.3705 0 4.55821C0 1.95963 1.84491 0 4.25 0C6.14559 0 7.36234 1.31843 8 2.5056C8.63766 1.31843 9.85441 0 11.75 0C14.1551 0 16 1.95963 16 4.55821C16 7.37053 13.6932 9.30098 10.2494 12.2227C9.63925 12.7404 8.99059 13.2909 8.30853 13.8847C8.22019 13.9617 8.11031 14 8 14Z"
+                    fill="#BBBBBB"
+                  />
+                </svg>
+              </div>
+              <div class="properties-card__element">
+                <p class="properties-card__text">East London</p>
+              </div>
+              <div class="properties-card__element">
+                <div class="properties-card__number-of-rooms">
+                  <span class="properties-card__bed">6</span>
+                  <span class="properties-card__kitchen">2</span>
+                  <span class="properties-card__bethroom">3</span>
+                </div>
+              </div>
+              <div class="properties-card__element">
+                <p class="properties-card__price">$5527.00</p>
+                <a href="#" class="properties-card__btn"> View Details </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="properties-card__item">
+            <div class="properties-card__img">
+              <img src="img/house-2.png" alt="house" />
+            </div>
+            <div class="properties-card__inner-padding">
+              <div class="properties-card__element">
+                <h3 class="properties-card__title">Capital hill residence</h3>
+                <svg
+                  class="properties-card__heart"
+                  width="16"
+                  height="14"
+                  viewBox="0 0 16 14"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M8 14C7.88969 14 7.77981 13.9617 7.69147 13.8847C7.00941 13.2909 6.36075 12.7404 5.75056 12.2227C2.30678 9.30098 0 7.3705 0 4.55821C0 1.95963 1.84491 0 4.25 0C6.14559 0 7.36234 1.31843 8 2.5056C8.63766 1.31843 9.85441 0 11.75 0C14.1551 0 16 1.95963 16 4.55821C16 7.37053 13.6932 9.30098 10.2494 12.2227C9.63925 12.7404 8.99059 13.2909 8.30853 13.8847C8.22019 13.9617 8.11031 14 8 14Z"
+                    fill="#BBBBBB"
+                  />
+                </svg>
+              </div>
+              <div class="properties-card__element">
+                <p class="properties-card__text">East London</p>
+              </div>
+              <div class="properties-card__element">
+                <div class="properties-card__number-of-rooms">
+                  <span class="properties-card__bed">6</span>
+                  <span class="properties-card__kitchen">2</span>
+                  <span class="properties-card__bethroom">3</span>
+                </div>
+              </div>
+              <div class="properties-card__element">
+                <p class="properties-card__price">$5527.00</p>
+                <a href="#" class="properties-card__btn"> View Details </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="properties-card__item">
+            <div class="properties-card__img">
+              <img src="img/house-3.png" alt="house" />
+            </div>
+            <div class="properties-card__inner-padding">
+              <div class="properties-card__element">
+                <h3 class="properties-card__title">Capital hill residence</h3>
+                <svg
+                  class="properties-card__heart"
+                  width="16"
+                  height="14"
+                  viewBox="0 0 16 14"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M8 14C7.88969 14 7.77981 13.9617 7.69147 13.8847C7.00941 13.2909 6.36075 12.7404 5.75056 12.2227C2.30678 9.30098 0 7.3705 0 4.55821C0 1.95963 1.84491 0 4.25 0C6.14559 0 7.36234 1.31843 8 2.5056C8.63766 1.31843 9.85441 0 11.75 0C14.1551 0 16 1.95963 16 4.55821C16 7.37053 13.6932 9.30098 10.2494 12.2227C9.63925 12.7404 8.99059 13.2909 8.30853 13.8847C8.22019 13.9617 8.11031 14 8 14Z"
+                    fill="#BBBBBB"
+                  />
+                </svg>
+              </div>
+              <div class="properties-card__element">
+                <p class="properties-card__text">East London</p>
+              </div>
+              <div class="properties-card__element">
+                <div class="properties-card__number-of-rooms">
+                  <span class="properties-card__bed">6</span>
+                  <span class="properties-card__kitchen">2</span>
+                  <span class="properties-card__bethroom">3</span>
+                </div>
+              </div>
+              <div class="properties-card__element">
+                <p class="properties-card__price">$5527.00</p>
+                <a href="#" class="properties-card__btn"> View Details </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="properties-card__item">
+            <div class="properties-card__img">
+              <img src="img/house-4.png" alt="house" />
+            </div>
+            <div class="properties-card__inner-padding">
+              <div class="properties-card__element">
+                <h3 class="properties-card__title">Capital hill residence</h3>
+                <svg
+                  class="properties-card__heart"
+                  width="16"
+                  height="14"
+                  viewBox="0 0 16 14"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M8 14C7.88969 14 7.77981 13.9617 7.69147 13.8847C7.00941 13.2909 6.36075 12.7404 5.75056 12.2227C2.30678 9.30098 0 7.3705 0 4.55821C0 1.95963 1.84491 0 4.25 0C6.14559 0 7.36234 1.31843 8 2.5056C8.63766 1.31843 9.85441 0 11.75 0C14.1551 0 16 1.95963 16 4.55821C16 7.37053 13.6932 9.30098 10.2494 12.2227C9.63925 12.7404 8.99059 13.2909 8.30853 13.8847C8.22019 13.9617 8.11031 14 8 14Z"
+                    fill="#BBBBBB"
+                  />
+                </svg>
+              </div>
+              <div class="properties-card__element">
+                <p class="properties-card__text">East London</p>
+              </div>
+              <div class="properties-card__element">
+                <div class="properties-card__number-of-rooms">
+                  <span class="properties-card__bed">6</span>
+                  <span class="properties-card__kitchen">2</span>
+                  <span class="properties-card__bethroom">3</span>
+                </div>
+              </div>
+              <div class="properties-card__element">
+                <p class="properties-card__price">$5527.00</p>
+                <a href="#" class="properties-card__btn"> View Details </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="properties-card__item">
+            <div class="properties-card__img">
+              <img src="img/house-5.png" alt="house" />
+            </div>
+            <div class="properties-card__inner-padding">
+              <div class="properties-card__element">
+                <h3 class="properties-card__title">Capital hill residence</h3>
+                <svg
+                  class="properties-card__heart"
+                  width="16"
+                  height="14"
+                  viewBox="0 0 16 14"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M8 14C7.88969 14 7.77981 13.9617 7.69147 13.8847C7.00941 13.2909 6.36075 12.7404 5.75056 12.2227C2.30678 9.30098 0 7.3705 0 4.55821C0 1.95963 1.84491 0 4.25 0C6.14559 0 7.36234 1.31843 8 2.5056C8.63766 1.31843 9.85441 0 11.75 0C14.1551 0 16 1.95963 16 4.55821C16 7.37053 13.6932 9.30098 10.2494 12.2227C9.63925 12.7404 8.99059 13.2909 8.30853 13.8847C8.22019 13.9617 8.11031 14 8 14Z"
+                    fill="#BBBBBB"
+                  />
+                </svg>
+              </div>
+              <div class="properties-card__element">
+                <p class="properties-card__text">East London</p>
+              </div>
+              <div class="properties-card__element">
+                <div class="properties-card__number-of-rooms">
+                  <span class="properties-card__bed">6</span>
+                  <span class="properties-card__kitchen">2</span>
+                  <span class="properties-card__bethroom">3</span>
+                </div>
+              </div>
+              <div class="properties-card__element">
+                <p class="properties-card__price">$5527.00</p>
+                <a href="#" class="properties-card__btn"> View Details </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="properties-card__item">
+            <div class="properties-card__img">
+              <img src="img/house-6.png" alt="house" />
+            </div>
+            <div class="properties-card__inner-padding">
+              <div class="properties-card__element">
+                <h3 class="properties-card__title">Capital hill residence</h3>
+                <svg
+                  class="properties-card__heart"
+                  width="16"
+                  height="14"
+                  viewBox="0 0 16 14"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M8 14C7.88969 14 7.77981 13.9617 7.69147 13.8847C7.00941 13.2909 6.36075 12.7404 5.75056 12.2227C2.30678 9.30098 0 7.3705 0 4.55821C0 1.95963 1.84491 0 4.25 0C6.14559 0 7.36234 1.31843 8 2.5056C8.63766 1.31843 9.85441 0 11.75 0C14.1551 0 16 1.95963 16 4.55821C16 7.37053 13.6932 9.30098 10.2494 12.2227C9.63925 12.7404 8.99059 13.2909 8.30853 13.8847C8.22019 13.9617 8.11031 14 8 14Z"
+                    fill="#BBBBBB"
+                  />
+                </svg>
+              </div>
+              <div class="properties-card__element">
+                <p class="properties-card__text">East London</p>
+              </div>
+              <div class="properties-card__element">
+                <div class="properties-card__number-of-rooms">
+                  <span class="properties-card__bed">6</span>
+                  <span class="properties-card__kitchen">2</span>
+                  <span class="properties-card__bethroom">3</span>
+                </div>
+              </div>
+              <div class="properties-card__element">
+                <p class="properties-card__price">$5527.00</p>
+                <a href="#" class="properties-card__btn"> View Details </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Properties end -->
+    <!-- Featured start -->
+    <section class="featured">
+      <div class="container">
+        <div class="title__wrapper">
+          <h2 class="title__repeat featured__title">Property Featured</h2>
+        </div>
+        <p class="featured__sub-title">
+          Real estate is a crowded field. But with the number of buyers
+          purchasing homes through real estate agents and brokers growing
+          there’s plenty of
+        </p>
+        <div class="featured__wrapper">
+          <div class="featured__column">
+            <div class="featured__item">
+              <div class="featured-element__svg">
+                <svg
+                  class="featured__svg"
+                  width="19"
+                  height="23"
+                  viewBox="0 0 19 23"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M9.49994 6.90536C7.15573 6.90536 5.24866 8.81243 5.24866 11.1565C5.24866 13.5007 7.15573 15.4078 9.49994 15.4078C11.844 15.4078 13.7511 13.5007 13.7511 11.1565C13.7511 8.81243 11.844 6.90536 9.49994 6.90536ZM12.0239 10.3559L8.97836 13.4015C8.85052 13.5293 8.68285 13.5933 8.51534 13.5933C8.34784 13.5933 8.18033 13.5295 8.05249 13.4015L6.88864 12.2376C6.63296 11.9821 6.63296 11.5676 6.88864 11.3119C7.14415 11.0562 7.55866 11.0562 7.81434 11.3119L8.51534 12.0129L11.0982 9.43019C11.3537 9.17451 11.7682 9.17451 12.0239 9.43019C12.2796 9.68571 12.2796 10.1002 12.0239 10.3559Z"
+                    fill="#FE753F"
+                  />
+                  <path
+                    d="M18.9779 6.05386L18.9772 6.0365C18.9675 5.82218 18.961 5.59544 18.9571 5.34316C18.9389 4.11292 17.9609 3.0953 16.7305 3.02653C14.1652 2.88336 12.1807 2.04686 10.485 0.39412L10.4705 0.380332C9.91748 -0.126777 9.08319 -0.126777 8.52995 0.380332L8.51548 0.39412C6.81984 2.04686 4.83532 2.88336 2.26998 3.0267C1.03974 3.0953 0.0616146 4.11292 0.0434002 5.34333C0.0396552 5.5939 0.0330163 5.82065 0.0233133 6.0365L0.0222919 6.07684C-0.0275849 8.69274 -0.0895478 11.9483 0.999571 14.9033C1.59843 16.5283 2.50541 17.9409 3.69513 19.102C5.05015 20.4243 6.82494 21.4741 8.97016 22.2221C9.03995 22.2465 9.11247 22.2662 9.18635 22.281C9.29053 22.3018 9.39539 22.3122 9.50025 22.3122C9.60511 22.3122 9.71014 22.3018 9.81415 22.281C9.88803 22.2662 9.96105 22.2463 10.0312 22.2218C12.1738 21.4724 13.9468 20.4221 15.3006 19.1C16.4898 17.9385 17.3968 16.5256 17.9962 14.9003C19.0894 11.9364 19.0276 8.67469 18.9779 6.05386ZM9.49991 16.7169C6.43376 16.7169 3.93941 14.2226 3.93941 11.1564C3.93941 8.0903 6.43376 5.59595 9.49991 5.59595C12.5659 5.59595 15.0604 8.0903 15.0604 11.1564C15.0604 14.2226 12.5659 16.7169 9.49991 16.7169Z"
+                    fill="#FE753F"
+                  />
+                </svg>
+              </div>
+              <div class="featured-element">
+                <h3 class="featured-element__title">100% Security</h3>
+              </div>
+              <p class="featured-element__sub-title">
+                For many of us, buying a home is a dre and one not easily
+                attainable.
+              </p>
+            </div>
+            <div class="featured__item">
+              <div class="featured-element__svg">
+                <svg
+                  width="22"
+                  height="15"
+                  viewBox="0 0 22 15"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M17.662 6.43518H4.32865C3.84254 6.43518 3.42587 6.8287 3.42587 7.33796V8.33333H18.5416V7.33796C18.5648 6.8287 18.1481 6.43518 17.662 6.43518Z"
+                    fill="#FE753F"
+                  />
+                  <path
+                    d="M20.7407 0H1.25C0.555556 0 0 0.555555 0 1.25V7.10648C0 7.80093 0.555556 8.35648 1.25 8.35648H2.38426V7.36111C2.38426 6.27315 3.26389 5.41667 4.3287 5.41667H17.662C18.75 5.41667 19.6065 6.2963 19.6065 7.36111V8.35648H20.7407C21.4352 8.35648 21.9907 7.80093 21.9907 7.10648V1.22685C21.9907 0.555555 21.4352 0 20.7407 0ZM15.8333 3.00926H14.5602C14.2593 3.00926 14.0278 2.77778 14.0278 2.47685C14.0278 2.17593 14.2593 1.94444 14.5602 1.94444H15.8333C16.1343 1.94444 16.3657 2.17593 16.3657 2.47685C16.3426 2.75463 16.1111 3.00926 15.8333 3.00926ZM19.0741 3.00926H17.8009C17.5 3.00926 17.2685 2.77778 17.2685 2.47685C17.2685 2.17593 17.5 1.94444 17.8009 1.94444H19.0741C19.375 1.94444 19.6065 2.17593 19.6065 2.47685C19.6065 2.75463 19.375 3.00926 19.0741 3.00926Z"
+                    fill="#FE753F"
+                  />
+                  <path
+                    d="M13.1018 10.9259L13.3333 10.5324C13.4953 10.2778 13.4027 9.93058 13.1481 9.76854C12.8935 9.6065 12.5463 9.69909 12.3842 9.95372L12.1527 10.3472C11.6898 11.1111 11.7592 12.0834 12.3148 12.7547C12.5463 13.0324 12.5926 13.4259 12.4537 13.75L12.2453 14.213C12.1296 14.4908 12.2685 14.8148 12.5463 14.9537C12.6157 14.9769 12.6851 15 12.7546 15C12.9629 15 13.1713 14.8611 13.2639 14.6528L13.4722 14.1898C13.7731 13.4722 13.6574 12.6621 13.1713 12.0602C12.9166 11.7361 12.8935 11.2963 13.1018 10.9259Z"
+                    fill="#FE753F"
+                  />
+                  <path
+                    d="M9.60642 10.9259L9.83791 10.5324C9.99994 10.2778 9.90735 9.93058 9.65272 9.76854C9.39809 9.6065 9.05087 9.69909 8.88883 9.95372L8.65735 10.3472C8.19439 11.1111 8.26383 12.0834 8.81939 12.7547C9.05087 13.0324 9.09717 13.4259 8.95828 13.75L8.74994 14.213C8.6342 14.4908 8.77309 14.8148 9.05087 14.9537C9.12031 14.9769 9.18976 15 9.2592 15C9.46754 15 9.67587 14.8611 9.76846 14.6528L9.97679 14.1898C10.2777 13.4722 10.162 12.6621 9.67587 12.0602C9.42124 11.7361 9.39809 11.2963 9.60642 10.9259Z"
+                    fill="#FE753F"
+                  />
+                  <path
+                    d="M16.5972 10.9259L16.8287 10.5324C16.9907 10.2778 16.8981 9.93058 16.6435 9.76854C16.3889 9.6065 16.0417 9.69909 15.8796 9.95372L15.6481 10.3472C15.1852 11.1111 15.2546 12.0834 15.8102 12.7547C16.0417 13.0324 16.0879 13.4259 15.9491 13.75L15.7407 14.213C15.625 14.4908 15.7639 14.8148 16.0417 14.9537C16.1111 14.9769 16.1805 15 16.25 15C16.4583 15 16.6667 14.8611 16.7592 14.6528L16.9676 14.1898C17.2685 13.4722 17.1528 12.6621 16.6667 12.0602C16.412 11.7361 16.3889 11.2963 16.5972 10.9259Z"
+                    fill="#FE753F"
+                  />
+                  <path
+                    d="M6.11119 10.9259L6.34267 10.5324C6.5047 10.2778 6.41211 9.93058 6.15748 9.76854C5.90285 9.6065 5.55563 9.69909 5.39359 9.95372L5.16211 10.3472C4.69915 11.1111 4.76859 12.0834 5.32415 12.7547C5.55563 13.0324 5.60193 13.4259 5.46304 13.75L5.2547 14.213C5.13896 14.4908 5.27785 14.8148 5.55563 14.9537C5.62507 14.9769 5.69452 15 5.76396 15C5.9723 15 6.18063 14.8611 6.27322 14.6528L6.48156 14.1898C6.78248 13.4722 6.66674 12.6621 6.18063 12.0602C5.926 11.7361 5.90285 11.2963 6.11119 10.9259Z"
+                    fill="#FE753F"
+                  />
+                </svg>
+              </div>
+              <div class="featured-element">
+                <h3 class="featured-element__title">100% Security</h3>
+              </div>
+              <p class="featured-element__sub-title">
+                For many of us, buying a home is a dre and one not easily
+                attainable.
+              </p>
+            </div>
+            <div class="featured__item">
+              <div class="featured-element__svg">
+                <svg
+                  width="20"
+                  height="20"
+                  viewBox="0 0 20 20"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M16.3333 18.3333C16.5177 18.3333 16.6667 18.4827 16.6667 18.6667C16.6667 18.8507 16.5177 19 16.3333 19H15.3333C15.149 19 15 18.8507 15 18.6667C15 18.4827 15.149 18.3333 15.3333 18.3333H16.3333ZM17 16H17.6667C17.851 16 18 16.1493 18 16.3333C18 16.5173 17.851 16.6667 17.6667 16.6667H17C16.8157 16.6667 16.6667 16.5173 16.6667 16.3333C16.6667 16.1493 16.8157 16 17 16ZM14 17C14 16.816 14.149 16.6667 14.3333 16.6667H15C15.1843 16.6667 15.3333 16.816 15.3333 17C15.3333 17.184 15.1843 17.3333 15 17.3333H14.3333C14.149 17.3333 14 17.184 14 17ZM13.3333 16H12.6667C12.4823 16 12.3333 15.8507 12.3333 15.6667C12.3333 15.4827 12.4823 15.3333 12.6667 15.3333H13.3333C13.5177 15.3333 13.6667 15.4827 13.6667 15.6667C13.6667 15.8507 13.5177 16 13.3333 16ZM12 19H11.3333C11.149 19 11 18.8507 11 18.6667C11 18.4827 11.149 18.3333 11.3333 18.3333H12C12.1843 18.3333 12.3333 18.4827 12.3333 18.6667C12.3333 18.8507 12.1843 19 12 19ZM10.3333 16.6667C10.3333 16.4827 10.4823 16.3333 10.6667 16.3333H11.3333C11.5177 16.3333 11.6667 16.4827 11.6667 16.6667C11.6667 16.8507 11.5177 17 11.3333 17H10.6667C10.4823 17 10.3333 16.8507 10.3333 16.6667ZM9 15.6667H8C7.81567 15.6667 7.66667 15.5173 7.66667 15.3333C7.66667 15.1493 7.81567 15 8 15H9C9.18433 15 9.33333 15.1493 9.33333 15.3333C9.33333 15.5173 9.18433 15.6667 9 15.6667ZM9 17.6667H8.33333C8.149 17.6667 8 17.5173 8 17.3333C8 17.1493 8.149 17 8.33333 17H9C9.18433 17 9.33333 17.1493 9.33333 17.3333C9.33333 17.5173 9.18433 17.6667 9 17.6667ZM7.33333 19H6.33333C6.149 19 6 18.8507 6 18.6667C6 18.4827 6.149 18.3333 6.33333 18.3333H7.33333C7.51767 18.3333 7.66667 18.4827 7.66667 18.6667C7.66667 18.8507 7.51767 19 7.33333 19ZM5 17C5 16.816 5.149 16.6667 5.33333 16.6667H6C6.18433 16.6667 6.33333 16.816 6.33333 17C6.33333 17.184 6.18433 17.3333 6 17.3333H5.33333C5.149 17.3333 5 17.184 5 17ZM4.33333 16H3.66667C3.48233 16 3.33333 15.8507 3.33333 15.6667C3.33333 15.4827 3.48233 15.3333 3.66667 15.3333H4.33333C4.51767 15.3333 4.66667 15.4827 4.66667 15.6667C4.66667 15.8507 4.51767 16 4.33333 16ZM4 18.6667H3.33333C3.149 18.6667 3 18.5173 3 18.3333C3 18.1493 3.149 18 3.33333 18H4C4.18433 18 4.33333 18.1493 4.33333 18.3333C4.33333 18.5173 4.18433 18.6667 4 18.6667ZM2.33333 17.3333H1.66667C1.48233 17.3333 1.33333 17.184 1.33333 17C1.33333 16.816 1.48233 16.6667 1.66667 16.6667H2.33333C2.51767 16.6667 2.66667 16.816 2.66667 17C2.66667 17.184 2.51767 17.3333 2.33333 17.3333ZM16.5077 3.99133C18.4483 3.89933 20 2.29633 20 0.333333V0H19.6667C17.6843 0 16.0687 1.58233 16.006 3.54933C15.6637 4.00133 15.4303 4.61267 15.246 5.19267C15.0927 4.318 14.8943 3.493 14.6437 2.77033C14.8563 1.993 15.291 1.175 15.5667 0.904667C15.6983 0.775667 15.7003 0.564667 15.5713 0.433333C15.4417 0.301333 15.2307 0.299667 15.1 0.428667C14.8197 0.703333 14.5043 1.24867 14.2607 1.84C14.0597 1.42533 13.8353 1.06433 13.583 0.779C13.4617 0.641333 13.2503 0.628667 13.1127 0.750333C12.9747 0.872333 12.9617 1.083 13.0837 1.221C13.5007 1.69233 13.8373 2.41133 14.1057 3.27633C13.8013 3.025 13.4573 2.79533 13.1007 2.68233C12.9243 2.62567 12.738 2.724 12.6823 2.89933C12.6267 3.075 12.724 3.26233 12.8993 3.31767C13.4403 3.489 14.045 4.10967 14.3693 4.443L14.4223 4.49633C14.6057 5.35233 14.7403 6.28833 14.8313 7.24133C14.676 7.107 14.5137 6.97867 14.357 6.85633L14.3317 6.83667C14.3067 5.26267 13.0577 3.95667 11.465 3.888L11.132 3.87367L11.1177 4.20667C11.048 5.82033 12.274 7.192 13.8707 7.32233L13.9467 7.382C14.317 7.67133 14.7693 8.027 14.9193 8.353C14.997 9.608 15.005 10.8453 14.9593 11.9207C14.7513 11.7373 14.5297 11.5557 14.296 11.377C14.0527 10.476 13.49 9.71167 12.6937 9.21767C11.8617 8.70133 10.8773 8.541 9.92367 8.76433L9.59933 8.84033L9.67533 9.165C9.899 10.119 10.48 10.929 11.3123 11.4447C11.8993 11.8093 12.5623 11.9967 13.237 11.9967C13.4633 11.9967 13.6907 11.9697 13.9173 11.927C14.2833 12.2083 14.6153 12.4957 14.9083 12.7843C14.8663 13.3317 14.8083 13.8123 14.7377 14.2027C14.3977 14.0727 14.0357 14 13.6667 14C13.26 14 12.894 14.0627 12.5583 14.191C12.239 13.2867 11.3643 12.6667 10.3333 12.6667C9.62167 12.6667 9.04633 13.1153 8.76633 13.3827C8.64567 13.4983 8.46567 13.5267 8.319 13.4533C8.13967 13.3637 7.93867 13.3277 7.734 13.346C7.259 13.391 6.81233 13.5473 6.463 13.7817C6.46 13.7757 6.45633 13.7707 6.453 13.765C6.62433 12.718 6.71167 11.2697 6.68333 9.701C6.83533 9.393 7.27 9.05433 7.62733 8.77767L7.74933 8.68267C9.34567 8.553 10.5727 7.181 10.5033 5.56733L10.489 5.23433L10.156 5.24867C9.35467 5.283 8.61533 5.627 8.074 6.217C7.57267 6.76333 7.29967 7.46067 7.28867 8.19633L7.21933 8.25033C7.03067 8.39633 6.833 8.55033 6.65033 8.71433C6.618 8.04667 6.565 7.36967 6.488 6.702C6.577 6.48133 6.65933 6.20233 6.75133 5.88167C6.93267 5.251 7.157 4.481 7.508 3.99133C9.44867 3.899 11 2.29633 11 0.333333V0H10.6667C8.68433 0 7.06833 1.58233 7.006 3.54967C6.66867 3.99667 6.44233 4.599 6.26567 5.17233C6.10933 4.301 5.90567 3.48033 5.64967 2.75833C5.863 1.97667 6.287 1.179 6.56667 0.904667C6.69833 0.775667 6.70033 0.564667 6.57133 0.433333C6.44167 0.301333 6.23067 0.299667 6.1 0.428667C5.821 0.702 5.507 1.24533 5.26467 1.834C5.06233 1.42333 4.836 1.06533 4.583 0.779C4.46167 0.641333 4.25033 0.628667 4.11267 0.750333C3.97467 0.872333 3.96167 1.083 4.08367 1.221C4.48467 1.674 4.835 2.37733 5.12467 3.28567C4.81267 3.031 4.45867 2.79567 4.10067 2.68233C3.92467 2.62567 3.738 2.724 3.68233 2.89933C3.62667 3.075 3.724 3.26233 3.89933 3.31767C4.45467 3.49367 5.07833 4.12733 5.41333 4.468L5.449 4.50367C5.62333 5.292 5.763 6.18167 5.861 7.16167C5.86467 7.19667 5.86733 7.23233 5.87067 7.26733C5.717 7.13567 5.55633 7.01 5.40133 6.89L5.33167 6.836C5.30633 5.26233 4.05733 3.95667 2.465 3.888L2.132 3.87367L2.11767 4.20667C2.048 5.82067 3.27467 7.19233 4.87133 7.32233L4.99333 7.41733C5.36733 7.70633 5.826 8.063 5.95667 8.382C5.98167 8.80133 5.99833 9.223 6.007 9.641C6.005 9.668 6.00467 9.694 6.00867 9.72C6.03167 10.9307 5.98767 12.0997 5.87867 13.051C5.551 12.796 5.15 12.6667 4.66667 12.6667C3.40033 12.6667 2.486 13.4817 2.35067 14.6853C1.045 14.8403 0.0253333 15.9453 0.003 17.2887C0.001 17.3033 0 17.3183 0 17.3333V19.6667C0 19.8507 0.149 20 0.333333 20H19.6667C19.851 20 20 19.8507 20 19.6667V17.3333C20 17.3183 19.999 17.3033 19.997 17.2887C19.9727 15.8387 18.787 14.6667 17.3333 14.6667C16.8977 14.6667 16.4653 14.7747 16.0827 14.979C16.0063 15.0203 15.9103 15.007 15.8557 14.9487C15.7043 14.7873 15.5353 14.646 15.3547 14.5233C15.695 12.9053 15.8037 9.69433 15.463 6.70333C15.5507 6.487 15.6337 6.21367 15.7273 5.89967C15.9167 5.26333 16.1513 4.486 16.5077 3.99133Z"
+                    fill="#FE753F"
+                  />
+                </svg>
+              </div>
+              <div class="featured-element">
+                <h3 class="featured-element__title">100% Security</h3>
+              </div>
+              <p class="featured-element__sub-title">
+                For many of us, buying a home is a dre and one not easily
+                attainable.
+              </p>
+            </div>
+          </div>
+          <div class="featured-column__img">
+            <img src="img/featured-bg.png" alt="" />
+          </div>
+          <div class="featured-column">
+            <div class="featured__item">
+              <div class="featured-element__svg">
+                <svg
+                  width="22"
+                  height="17"
+                  viewBox="0 0 22 17"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M1.01852 8.63939L1.79259 6.88754H1.05926C0.244444 6.48013 0 5.95051 0 5.09495L2.56667 5.13569L4.23704 1.3468C4.97037 0.450506 5.66296 -0.0383833 6.23333 0.00235743C9.45185 0.0430982 12.5889 0.0430982 15.7667 0.00235743C16.337 -0.0383833 17.0296 0.450506 17.763 1.3468L19.4333 5.13569L22 5.09495C22 5.95051 21.7556 6.48013 20.9407 6.88754H20.2074L20.9815 8.63939C20.9815 11.0838 20.9815 13.4875 20.9815 15.932C20.9815 16.4209 20.5741 16.8283 20.0852 16.8283H17.0296C16.5407 16.8283 16.1333 16.4209 16.1333 15.932V13.8542H5.86667V15.932C5.86667 16.4209 5.45926 16.8283 4.97037 16.8283H1.91481C1.42593 16.8283 1.01852 16.4209 1.01852 15.932C1.01852 13.4875 1.01852 11.0838 1.01852 8.63939ZM6.43704 1.55051C6.15185 1.59125 5.86667 1.83569 5.54074 2.20236C4.97037 3.46532 4.35926 4.68754 3.78889 5.95051H18.2519C17.6407 4.68754 17.0296 3.46532 16.4593 2.20236C16.1333 1.83569 15.8481 1.59125 15.563 1.55051H6.43704ZM8.55556 10.1061C8.14815 10.1061 7.86296 10.432 7.86296 10.8394C7.86296 11.2468 8.14815 11.5727 8.55556 11.5727H13.4444C13.8519 11.5727 14.1778 11.2468 14.1778 10.8394C14.1778 10.432 13.8519 10.1061 13.4444 10.1061H8.55556ZM18.0889 8.8431C17.3148 8.8431 16.663 9.45421 16.663 10.269C16.663 11.0838 17.3148 11.6949 18.0889 11.6949C18.9037 11.6949 19.5556 11.0838 19.5556 10.269C19.5556 9.45421 18.9037 8.8431 18.0889 8.8431ZM3.91111 8.8431C4.68519 8.8431 5.33704 9.45421 5.33704 10.269C5.33704 11.0838 4.68519 11.6949 3.91111 11.6949C3.0963 11.6949 2.44444 11.0838 2.44444 10.269C2.44444 9.45421 3.0963 8.8431 3.91111 8.8431Z"
+                    fill="#FE753F"
+                  />
+                </svg>
+              </div>
+              <div class="featured-element">
+                <h3 class="featured-element__title">100% Security</h3>
+              </div>
+              <p class="featured-element__sub-title">
+                For many of us, buying a home is a dre and one not easily
+                attainable.
+              </p>
+            </div>
+            <div class="featured__item">
+              <div class="featured-element__svg">
+                <svg
+                  width="24"
+                  height="14"
+                  viewBox="0 0 24 14"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M5.54679 5.32198V6.89609H11.2685V0H4.49738C3.67285 0 2.99823 0.674618 2.99823 1.49915V3.3481H3.54792C4.67228 3.3481 5.54679 4.22261 5.54679 5.32198Z"
+                    fill="#FE753F"
+                  />
+                  <path
+                    d="M18.1896 5.32198C18.1896 4.22261 19.0891 3.3481 20.1635 3.3481H20.7132V1.49915C20.7132 0.674618 20.0386 0 19.214 0H12.4679V6.89609H18.1896V5.32198Z"
+                    fill="#FE753F"
+                  />
+                  <path
+                    d="M21.7627 4.52246H20.1636C19.7138 4.52246 19.364 4.87226 19.364 5.32201V7.84558C19.364 7.99549 19.2641 8.09544 19.1142 8.09544H4.62238C4.47246 8.09544 4.37252 7.99549 4.37252 7.84558V5.32201C4.37252 4.87226 4.02272 4.52246 3.57297 4.52246H1.97388C0.89949 4.52246 0 5.39696 0 6.49634C0 7.57073 0.874504 8.47022 1.97388 8.47022V10.4691C1.97388 11.2686 2.59853 11.9183 3.37309 11.9433V12.7428C3.37309 13.0676 3.64793 13.3425 3.97275 13.3425H5.34697C5.67178 13.3425 5.94663 13.0676 5.94663 12.7428V11.9433H17.8399V12.7428C17.8399 13.0676 18.1147 13.3425 18.4395 13.3425H19.8138C20.1386 13.3425 20.4134 13.0676 20.4134 12.7428V11.9183C21.188 11.8683 21.8126 11.2436 21.8126 10.4441V8.44524C22.887 8.44524 23.7865 7.57073 23.7865 6.47136C23.7365 5.39696 22.862 4.52246 21.7627 4.52246Z"
+                    fill="#FE753F"
+                  />
+                </svg>
+              </div>
+              <div class="featured-element">
+                <h3 class="featured-element__title">100% Security</h3>
+              </div>
+              <p class="featured-element__sub-title">
+                For many of us, buying a home is a dre and one not easily
+                attainable.
+              </p>
+            </div>
+            <div class="featured__item">
+              <div class="featured-element__svg">
+                <svg
+                  width="28"
+                  height="13"
+                  viewBox="0 0 28 13"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M20.5038 5.92668C21.9561 6.09668 23.2711 5.05702 23.4411 3.60449C23.6109 2.15237 22.5714 0.837258 21.1189 0.667375C19.6666 0.497374 18.3515 1.53703 18.182 2.98945C18.0116 4.44187 19.0515 5.7568 20.5038 5.92668Z"
+                    fill="#FE753F"
+                  />
+                  <path
+                    d="M8.97227 3.77349L12.9106 2.98703L13.7575 4.34905L10.6892 7.26669C11.1629 7.38642 11.6179 7.56462 12.0409 7.79776C12.2438 7.90958 12.4339 8.03875 12.6177 8.16355C12.9138 8.36465 13.1925 8.55819 13.4686 8.63402C13.687 8.69397 13.9732 8.69739 13.9914 8.69845C14.3803 8.69509 14.7231 8.58687 15.0729 8.35881C15.9826 7.7656 17.0993 7.15109 18.4843 7.09025C18.5865 7.08577 18.6897 7.08347 18.7913 7.08347C19.2356 7.08347 19.67 7.12713 20.0854 7.21175C19.8004 6.75674 14.7228 0.603587 14.7228 0.603587L14.5889 0.443499C14.2613 0.0540479 13.7129 -0.108872 13.2073 0.0764123L8.42551 1.8303C7.96448 1.99889 7.68224 2.48275 7.78126 2.97901C7.89078 3.52719 8.42403 3.88289 8.97227 3.77349Z"
+                    fill="#FE753F"
+                  />
+                  <path
+                    d="M26.3799 9.89107C25.728 10.1833 25.2421 10.3025 24.7025 10.3025C24.49 10.3025 24.2701 10.2835 24.0302 10.2442C23.2313 10.1018 22.6619 9.64046 22.1111 9.1943C21.7724 8.91992 21.4525 8.66069 21.0824 8.46986C20.4125 8.1226 19.607 7.93915 18.7521 7.93915C18.6634 7.93915 18.5732 7.94121 18.484 7.94517C17.3151 7.99644 16.3673 8.51648 15.517 9.0708C15.0182 9.39617 14.4265 9.5523 13.8896 9.5523C13.7277 9.5523 13.398 9.51678 13.1841 9.45506C12.7736 9.33669 12.4216 9.09753 12.0812 8.86646C11.9064 8.74761 11.7412 8.6355 11.5743 8.5435C10.8598 8.14957 10.0347 7.94133 9.18831 7.94133H9.17114C7.98614 7.94523 6.91444 8.30865 6.07205 8.99208C4.89903 9.94406 4.12491 10.2115 3.90422 10.2492C3.90422 10.2492 3.71911 10.2976 3.32164 10.2976C2.5602 10.2976 1.92386 10.0482 1.28516 9.77045C0.836466 9.57531 0.413616 9.46332 3.05176e-05 9.43069C0.0802221 9.47701 0.156991 9.52539 0.231459 9.5765C0.555648 9.80249 0.822481 10.0772 1.0804 10.3429C1.21848 10.485 1.34883 10.6193 1.48732 10.7467C2.02954 11.2455 3.14863 11.8351 4.43665 11.8351C5.09022 11.8351 5.72261 11.693 6.31605 11.4126C6.49065 11.3301 6.66065 11.2319 6.84057 11.128C7.13909 10.9557 7.44917 10.782 7.79278 10.6663C8.22637 10.5202 8.89941 10.5686 8.89941 10.5686C9.59723 10.6132 10.1198 10.9429 10.4971 11.2252C11.6466 12.085 12.7311 12.4908 13.9101 12.5023L13.9702 12.5026C14.7814 12.5026 15.5236 12.3463 16.1763 12.0379C16.4803 11.8942 16.7697 11.6828 17.0763 11.4589C17.652 11.0384 18.2474 10.6034 19.0141 10.5733C19.0597 10.5715 19.1061 10.5705 19.1532 10.5705C19.573 10.5705 20.2052 10.6435 20.8326 10.991C21.5879 11.4107 22.5015 11.8396 23.5557 11.8396C23.7089 11.8396 23.8653 11.8306 24.0204 11.8131C24.9908 11.7033 25.8109 11.3455 26.4582 10.7497C26.597 10.6221 26.7276 10.4873 26.8659 10.3448C27.161 10.0409 27.4659 9.72655 27.8512 9.48792C27.8801 9.46993 27.9091 9.45252 27.9384 9.43558C27.4728 9.47701 26.9795 9.62217 26.3799 9.89107Z"
+                    fill="#FE753F"
+                  />
+                </svg>
+              </div>
+              <div class="featured-element">
+                <h3 class="featured-element__title">100% Security</h3>
+              </div>
+              <p class="featured-element__sub-title">
+                For many of us, buying a home is a dre and one not easily
+                attainable.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Featured end -->
+    <!-- Reviews start -->
+    <section class="reviews">
+      <div class="container">
+        <p class="reviews__overtitle">reviews</p>
+        <div class="title__wrapper">
+          <h2 class="title__repeat reviews__title">
+            Our valuable customer says
+          </h2>
+        </div>
+        <div class="reviews__wrapper">
+          <div class="reviews__item">
+            <div class="reviews__item-top">
+              <img src="img/face1.png" alt="" />
+              <div class="reviews__item-initials">
+                <p class="reviews__item-name">Justin Lee</p>
+                <p class="reviews__item-profession">Products Designer at Ito</p>
+              </div>
+            </div>
+            <p class="reviews__item-text">
+              A good real estate agent doesn’t disappear once the closing IN
+              signed.Buying a bigger home doesn’t necessarily mean spendi more
+              money.Been there. Done that. Sold. Bought Bringing It All
+              Together.
+            </p>
+          </div>
+          <div class="reviews__item">
+            <div class="reviews__item-top">
+              <img src="img/face2.png" alt="" />
+              <div class="reviews__item-initials">
+                <p class="reviews__item-name">Justin Lee</p>
+                <p class="reviews__item-profession">Products Designer at Ito</p>
+              </div>
+            </div>
+            <p class="reviews__item-text">
+              A good real estate agent doesn’t disappear once the closing IN
+              signed.Buying a bigger home doesn’t necessarily mean spendi more
+              money.Been there. Done that. Sold. Bought Bringing It All
+              Together.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Reviews end -->
+    <!-- Send-email start -->
+    <section class="send-email">
+      <div class="container">
+        <div class="send-email__wrapper">
+          <h2 class="send-email__title">Get listed your home as a owner</h2>
+          <p class="send-email__sub-title">
+            Here is a list of the greatest real estate company slogans of
+            all-time. These catchy slogans are followed by the Greatest Real
+            Estate.
+          </p>
+          <form class="send-email__form" action="#">
+            <input class="send-email__input" type="email" placeholder="Enter email address"/>
+            <button class="send-email__btn">Subscribe</button>
+          </form>
+        </div>
+      </div>
+    </section>
+    <!-- Send-email end -->
+    <!-- Footer start -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__wrapper">
+          <div class="footer__item">
+            <a href="#" ><img src="img/Logo.svg" alt="logo" class="footer__logo"></a>
+            <p class="footer__text">
+              Contrary to popular  is not simply random text. It has 
+            </p>
+            <div class="footer__society">
+              <a href="" class="footer__society-link"><img src="img/facebook.svg" alt="" class="footer__society-svg"></a>
+              <a href="" class="footer__society-link"><img src="img/insta.svg" alt="" class="footer__society-svg"></a>
+              <a href="" class="footer__society-link"><img src="img/twitter.svg" alt="" class="footer__society-svg"></a>
+              <a href="" class="footer__society-link"><img src="img/youtube.svg" alt="" class="footer__society-svg"></a>
+              <a href=" "class="footer__society-link"><img src="img/in.svg" alt="" class="footer__society-svg"></a>
+            </div>
+          </div>
+          <div class="footer__item">
+            <nav class="footer__nav">
+              <ul class="footer__menu">
+                <li class="footer__menu-list"><h3 class="footer__menu-title">About</h3></li>
+                <li class="footer__menu-list"><a href="#">Company</a></li>
+                <li class="footer__menu-list"><a href="#">Career</a></li>
+                <li class="footer__menu-list"><a href="#">Blogs</a></li>
+                <li class="footer__menu-list"><a href="#">Team</a></li>
+              </ul>
+            </nav>
+          </div>
+          <div class="footer__item">
+            <nav class="footer__nav">
+              <ul class="footer__menu">
+                <li class="footer__menu-list"><h3 class="footer__menu-title">Products</h3></li>
+                <li class="footer__menu-list"><a href="#">E-Books</a></li>
+                <li class="footer__menu-list"><a href="#">Preasantation</a></li>
+                <li class="footer__menu-list"><a href="#">Management</a></li>
+                <li class="footer__menu-list"><a href="#">Dashboard</a></li>
+              </ul>
+            </nav>
+          </div>
+          <div class="footer__item">
+            <nav class="footer__nav">
+              <ul class="footer__menu">
+                <li class="footer__menu-list"><h3 class="footer__menu-title">Address</h3></li>
+                <li class="footer__menu-list"><a href="#">Country Delevery</a></li>
+                <li class="footer__menu-list"><a href="#">Counter Beach Post</a></li>
+                <li class="footer__menu-list"><a href="#">www.itobd.com</a></li>
+                <li class="footer__menu-list"><a href="#">+880176565655</a></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Footer end -->
+  </body>
+  <script src="./js/main.js"></script>
+</html>
